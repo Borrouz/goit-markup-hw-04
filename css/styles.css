@@ -306,8 +306,7 @@ body {
 	border-color: var(--color-ocean);
 }
 .section-customers {
-	margin-top: 120px;
-	margin-bottom: 120px;
+	padding: 120px 0;
 }
 .customers-logo {
 	fill: currentColor;
@@ -342,9 +341,12 @@ body {
 
 .social-logo-wrap{
 	align-items: center;
-	padding: 24px 100px;
+	display: flex;
 	background: var(--color-cloud);
 	border-radius: 4px;
+	justify-content: center;
+	height: 112px;
+	margin-bottom: 8px;
 }
 .main-list {
 	display: flex;
@@ -400,8 +402,6 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-navy-blue);
 	margin-bottom: 8px;
-	margin-top: 8px;
-
 }
 .our-services-description{
 	line-height: 1.5;
@@ -414,7 +414,7 @@ body {
 	background-color: var(--color-cloud);
 }
 .our-team-title {
-	padding: 32px 16px;
+	padding: 32px 0px;
 	border: 1px solid var(--color-cornflower);
 	border-top: none;
 }
@@ -423,8 +423,8 @@ body {
 	border: 1px solid var(--color-cornflower);
 	border-top: none;
 }
-.portfolio-card:hover,
-.portfolio-card:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
