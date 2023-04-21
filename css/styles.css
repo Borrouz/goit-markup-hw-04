@@ -71,7 +71,7 @@ a {
 }
 .section-title {
 	font-size: 36px;
-	line-height: 1.11;
+	line-height: 1.1;
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--color-grey);
@@ -334,7 +334,7 @@ body {
 .footer-flex-wrap {
 	display: flex;
 	align-items: baseline;
-	gap: 120px;
+
 }
 
 /* Portfolio */
@@ -451,6 +451,9 @@ body {
 }
 .footer-logo-span {
 	color: var(--color-cloud);
+}
+.left-side {
+	margin-right: 120px;
 }
 
 .footer-item-link {
