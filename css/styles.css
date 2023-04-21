@@ -119,6 +119,7 @@ body {
 }
 .header {
 	border-bottom: 1px solid var(--color-cornflower);
+	box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .our-adress {
 	margin-left: auto;
@@ -187,7 +188,7 @@ body {
 .hero {
 	background-color: var(--color-grey);
 	padding: 188px 0 188px;
-	background-image: radial-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,url(../images/hero.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -312,7 +313,9 @@ body {
 	fill: currentColor;
 }
 
-
+.social-item-svg{
+	fill: #f4f4fd;
+}
 .right-side {
 	margin-left: 120px;
 }
